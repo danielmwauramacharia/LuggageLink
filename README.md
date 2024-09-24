@@ -1,6 +1,7 @@
-
 **LuggageLink**
 A Web-Based GIS Solution for Urban Luggage Storage and Management
+
+![LuggageLink Interface]()
 
 **Introduction**
 LuggageLink is a web application designed to help travelers find, book, and pay for luggage storage locations within urban environments. Using a GIS-based system powered by Leaflet.js and OpenStreetMap, users can locate nearby storage facilities in real-time, compare prices, and securely book a spot. The platform offers a streamlined experience for tourists, business travelers, and event attendees.
@@ -9,21 +10,20 @@ LuggageLink is a web application designed to help travelers find, book, and pay 
 **Project Blog Article**: Final Project Blog
 **Author LinkedIn**: Daniel Mwaura
 
-****Installation**
-**Prerequisites****
-**Ensure you have the following software installed:**
+**Prerequisites: Ensure you have the following software installed:**
 
 Node.js (v14 or higher)
 PostgreSQL (v12 or higher)
 Git
 
 **Steps to Set Up Locally**
-**Clone the repository:**
 git clone https://github.com/yourusername/luggagelink.git
 cd luggagelink
-**Install dependencies**: 
+
+**Install dependencies**:
 Navigate to the project folder and run:
 npm install
+
 **Configure the database:**
 Create a .env file in the root directory, and add your PostgreSQL connection string:
 DB_USER=your_user
@@ -34,11 +34,11 @@ DB_PORT=5432
 Run database migrations: Set up the database tables:
 npm run migrate
 
-**Start the server:** 
+**Start the server:**
 Run the application locally:
 npm start
 
-**Access the application: **
+Access the application:
 Open your browser and go to:
 http://localhost:3000
 
