@@ -1,7 +1,7 @@
 **LuggageLink**
 A Web-Based GIS Solution for Urban Luggage Storage and Management
 
-![LuggageLink Interface]()
+![LuggageLink Interface](assets/LuggageLink.PNG)
 
 **Introduction**
 LuggageLink is a web application designed to help travelers find, book, and pay for luggage storage locations within urban environments. Using a GIS-based system powered by Leaflet.js and OpenStreetMap, users can locate nearby storage facilities in real-time, compare prices, and securely book a spot. The platform offers a streamlined experience for tourists, business travelers, and event attendees.
